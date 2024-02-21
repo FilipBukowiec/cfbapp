@@ -1,0 +1,47 @@
+footer {
+  display: flex;
+  margin: 0 auto;
+  left: 1vw;
+  bottom: 0;
+  position: absolute;
+  height: 5vw;
+  width: 98vw;
+  margin-bottom: 1vw;
+  z-index: 2;
+}
+
+.logo {
+  position: absolute;
+  bottom: 0;
+  width: 10vw;
+  display: flex;
+
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden; /* Ukryj wszystko, co wychodzi poza kontener */
+  white-space: nowrap; /* Zapobiega zawijaniu tekstu */
+  position: relative; /* Ustawienie pozycji względem rodzica */
+  margin-left: 10vw;
+  width: 80vw;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+
+}
+
+.marquee-content {
+  height: 100vh;
+  display: flex; /* Umożliwia wyświetlanie tekstu obok siebie */
+  align-items: center;
+}
+
+.hour {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #000;
+}
