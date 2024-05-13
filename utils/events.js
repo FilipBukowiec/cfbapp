@@ -23,7 +23,7 @@ export const crossfitBytomThrowdown = `<div class="swiper-slide">
 
 
 const countdownThrowdown = setInterval(() => {
-    const result = countdown("2024-03-23T09:45:00");
+    const result = countdown("2024-07-23T09:45:00");
     const days = document.getElementById("days");
     const hours = document.getElementById("hours");
     const minutes = document.getElementById("minutes");
