@@ -2,12 +2,6 @@ import { countdown } from "./countdown.js";
 
 
 
-// class Event {
-// constructor(){
-// this.event = document.createElement("div");
-
-// }
-// }
 
 
 export const crossfitBytomThrowdown = `<div class="swiper-slide">
