@@ -2,6 +2,7 @@
 .intro {
   background-image: url("../../img/crossfitBackgrounds/cfb_background.jpg");
   z-index: 3;
+  display: none;
 }
 
 .loading-mode {
