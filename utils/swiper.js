@@ -1,5 +1,6 @@
 import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
 
+
 export function mediaSlides(media) {
   const wrapper = document.getElementById("swiperWrapper");
 
@@ -8,7 +9,12 @@ export function mediaSlides(media) {
     div.classList.add("swiper-slide");
     wrapper.appendChild(div);
 
-    if (element.includes("http")) {
+    // if (typeof element === 'function') {
+    //   // Jeśli element jest funkcją, dodaj wynik jej wywołania do div
+    //   div.innerHTML = element();
+    //   console.log(element())
+    // } else
+     if (element.includes("http")) {
       if (element.includes(".mp4")) {
         const videoElement = document.createElement("video");
         videoElement.src = element;
@@ -38,49 +44,43 @@ export function mediaSlides(media) {
         imageElement.src = `./media/${element}`;
         div.appendChild(imageElement);
       } else {
-div.innerHTML = element;
-
+        div.innerHTML = element;
       }
     }
   });
 
+  // Po utworzeniu wszystkich elementów DOM wywołujemy createCountdown()
+
   const mySwiper = new Swiper(".swiper", {
     // Ustawienia Swipera
-    loop: true, // Zapętlaj slajdy
+    loop: true,
     autoplay: {
-      delay: 10000, // Czas pomiędzy slajdami
-      disableOnInteraction: false, // Nie zatrzymuj autoplay po interakcji użytkownika
+      delay: 10000,
+      disableOnInteraction: false,
     },
     speed: 800,
-    effect: "fade", // Efekt fade podczas przewijania slajdów
+    effect: "fade",
     fadeEffect: {
-      crossFade: true, // Włącz płynne przejścia pomiędzy slajdami
+      crossFade: true,
     },
 
     allowTouchMove: false,
-    // navigation: {
-    //     nextEl: '.swiper-button-next',
-    //     prevEl: '.swiper-button-prev',
-    // },
     on: {
       slideChangeTransitionStart: function () {
         const currentSlide = this.slides[this.activeIndex];
         const video = currentSlide.querySelector("video");
 
-        // Jeśli aktualny slajd zawiera wideo, restartuj je od początku i ustaw na nie nasłuchiwanie zdarzenia ended
         if (video) {
-          video.currentTime = 0; // Restartuj wideo od początku
-          video.play(); // Rozpocznij odtwarzanie wideo
+          video.currentTime = 0;
+          video.play();
 
           const swiperInstance = this;
 
-          // Zatrzymaj automatyczne przewijanie tylko jeśli to wideo
           swiperInstance.autoplay.stop();
 
-          // Nasłuchuj zdarzenia ended, aby przenieść się do następnego slajdu po zakończeniu odtwarzania wideo
           video.addEventListener("ended", function () {
-            swiperInstance.autoplay.start(); // Wznów automatyczne przewijanie
-            swiperInstance.slideNext(); // Przejdź do następnego slajdu
+            swiperInstance.autoplay.start();
+            swiperInstance.slideNext();
           });
         }
       },
