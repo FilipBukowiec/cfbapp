@@ -18,7 +18,21 @@ textInfo.forEach((element, index) => {
 
 let allInfo = textInfo.join("");
 
+
+
+
+// export function newsInfo(){
+// const marquee = document.getElementById("marquee")
+// const news = document.createElement("div");
+// news.classList.add("spanek");
+// news.innerHTML = allInfo;
+// marquee.appendChild(news)
+// }
+
+
+
 export function newsInfo() {
   const news = document.getElementById("news");
   news.innerHTML = allInfo;
 }
+
