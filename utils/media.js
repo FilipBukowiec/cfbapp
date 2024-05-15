@@ -8,4 +8,5 @@ export const media = [
   "kettlebell_endurance.mp4",
   "start_bytom.mp4",
   "murph.jpg",
+  "hyrox.mp4"
 ];
