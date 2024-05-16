@@ -3,10 +3,10 @@
 import { eventCountdown } from "./events.js";
 
 export const media = [
+  "start_bytom.mp4",
   "hyroxcompetition.jpg",
   "crossfit_runners.mp4",
   "kettlebell_endurance.mp4",
-  "start_bytom.mp4",
   "murph.jpg",
   "hyrox.mp4"
 ];
