@@ -51,7 +51,7 @@ export function mediaSlides(media) {
   const mySwiper = new Swiper(".swiper", {
     loop: true,
     autoplay: {
-      delay: 10000,
+      delay: 15000,
       disableOnInteraction: false,
     },
     speed: 800,
