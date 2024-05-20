@@ -3,6 +3,9 @@ import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs
 export function mediaSlides(media) {
   const wrapper = document.getElementById("swiperWrapper");
 
+  // Wyczyść zawartość wrappera przed dodaniem nowych slajdów
+  wrapper.innerHTML = '';
+
   media.forEach((element) => {
     const div = document.createElement("div");
     div.classList.add("swiper-slide");
@@ -13,6 +16,7 @@ export function mediaSlides(media) {
         const videoElement = document.createElement("video");
         videoElement.src = element;
         videoElement.muted = true;
+        videoElement.setAttribute("playsinline", ""); // Ważne dla autoplay na mobilnych urządzeniach
         div.appendChild(videoElement);
       } else if (
         element.includes(".jpg") ||
@@ -28,6 +32,7 @@ export function mediaSlides(media) {
         const videoElement = document.createElement("video");
         videoElement.src = `./media/${element}`;
         videoElement.muted = true;
+        videoElement.setAttribute("playsinline", ""); // Ważne dla autoplay na mobilnych urządzeniach
         div.appendChild(videoElement);
       } else if (
         element.includes(".jpg") ||
@@ -38,50 +43,40 @@ export function mediaSlides(media) {
         imageElement.src = `./media/${element}`;
         div.appendChild(imageElement);
       } else {
-div.innerHTML = element;
-
+        div.innerHTML = element;
       }
     }
   });
 
   const mySwiper = new Swiper(".swiper", {
-    // Ustawienia Swipera
-    loop: true, // Zapętlaj slajdy
+    loop: true,
     autoplay: {
-      delay: 10000, // Czas pomiędzy slajdami
-      disableOnInteraction: false, // Nie zatrzymuj autoplay po interakcji użytkownika
+      delay: 10000,
+      disableOnInteraction: false,
     },
     speed: 800,
-    effect: "fade", // Efekt fade podczas przewijania slajdów
+    effect: "fade",
     fadeEffect: {
-      crossFade: true, // Włącz płynne przejścia pomiędzy slajdami
+      crossFade: true,
     },
-
     allowTouchMove: false,
-    // navigation: {
-    //     nextEl: '.swiper-button-next',
-    //     prevEl: '.swiper-button-prev',
-    // },
     on: {
       slideChangeTransitionStart: function () {
         const currentSlide = this.slides[this.activeIndex];
         const video = currentSlide.querySelector("video");
 
-        // Jeśli aktualny slajd zawiera wideo, restartuj je od początku i ustaw na nie nasłuchiwanie zdarzenia ended
         if (video) {
-          video.currentTime = 0; // Restartuj wideo od początku
-          video.play(); // Rozpocznij odtwarzanie wideo
+          video.currentTime = 0;
+          video.play();
 
           const swiperInstance = this;
 
-          // Zatrzymaj automatyczne przewijanie tylko jeśli to wideo
           swiperInstance.autoplay.stop();
 
-          // Nasłuchuj zdarzenia ended, aby przenieść się do następnego slajdu po zakończeniu odtwarzania wideo
           video.addEventListener("ended", function () {
-            swiperInstance.autoplay.start(); // Wznów automatyczne przewijanie
-            swiperInstance.slideNext(); // Przejdź do następnego slajdu
-          });
+            swiperInstance.autoplay.start();
+            swiperInstance.slideNext();
+          }, { once: true }); // Dodaj { once: true }, aby nasłuchiwacz był wywołany tylko raz
         }
       },
     },
