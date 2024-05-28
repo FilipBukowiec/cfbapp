@@ -9,7 +9,7 @@ export const media = [
   "hms.mp4",
   "crossfit_runners.mp4",
   "kettlebell_endurance.mp4",
-  "murph.jpg",
+  "murph.mp4",
   "start_bytom.mp4",
   "hyrox.mp4"
 ];
