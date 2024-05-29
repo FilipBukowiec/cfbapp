@@ -1,9 +1,12 @@
 const textInfo = [
-  "Już wkrótce zawody Crossfit Bytom Throwdown 2024",
-  "Zachęcamy do kupna gadżetów oraz odzieży z kolekcji All In",
-  "Zapraszamy na nowy Fanpage FB Start Bytom",
-  "W najbliższy piątek zajęcia Crossfit masters są odwołane. Idziemy na piwo",
-  "Grzegorz Lichwa zakupił Licencję CF na 15 kolejnych lat. To wielki skok dla Bytomia",
+  "15% kod rabatowy : CFBYTOM15 na www.mojcatering.pl",
+  "Start CrossFit Intro: 11/06 Wtorek (17:30) ",
+  "Challenge Murph All Week: 10/06 -15/06",
+  "Lipiec: California 13/07 Sobota (10:00)",
+  "Sierpień: Triple 3 17/08 Sobota (10:00) CrossFit Games Event na stadionie",
+  "Crossfit Runners: #3 Wyjazd w Góry - 02/06 Niedziela (7:00)",
+  "Piotr Komaniecki startuje w European Masters Throwdown (Budapeszt) - Piątek 31/06",
+  "31/05-02/06 ostatnie eliminacje do CrossFit Games. Semifinals in RPA/Brazylia i USA. Oglądaj Live na crossfitgames.com",
 ];
 
 let imgPath = "./img/cfb.svg";
@@ -18,9 +21,6 @@ textInfo.forEach((element, index) => {
 
 let allInfo = textInfo.join("");
 
-
-
-
 // export function newsInfo(){
 // const marquee = document.getElementById("marquee")
 // const news = document.createElement("div");
@@ -29,10 +29,7 @@ let allInfo = textInfo.join("");
 // marquee.appendChild(news)
 // }
 
-
-
 export function newsInfo() {
   const news = document.getElementById("news");
   news.innerHTML = allInfo;
 }
-
