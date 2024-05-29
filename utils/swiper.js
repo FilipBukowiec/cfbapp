@@ -17,6 +17,8 @@ export function mediaSlides(media) {
         videoElement.src = element;
         videoElement.muted = true;
         videoElement.setAttribute("playsinline", ""); // Ważne dla autoplay na mobilnych urządzeniach
+        videoElement.setAttribute("poster", "path/to/placeholder.jpg"); // Dodaj poster
+        videoElement.setAttribute("preload", "metadata");
         div.appendChild(videoElement);
       } else if (
         element.includes(".jpg") ||
@@ -33,6 +35,7 @@ export function mediaSlides(media) {
         videoElement.src = `./media/${element}`;
         videoElement.muted = true;
         videoElement.setAttribute("playsinline", ""); // Ważne dla autoplay na mobilnych urządzeniach
+        videoElement.setAttribute("poster", "../media/bg.jpg"); // Dodaj poster
         videoElement.setAttribute("preload", "metadata");
         div.appendChild(videoElement);
       } else if (
