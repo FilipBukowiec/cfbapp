@@ -33,6 +33,7 @@ export function mediaSlides(media) {
         videoElement.src = `./media/${element}`;
         videoElement.muted = true;
         videoElement.setAttribute("playsinline", ""); // Ważne dla autoplay na mobilnych urządzeniach
+        videoElement.setAttribute("preload", "metadata");
         div.appendChild(videoElement);
       } else if (
         element.includes(".jpg") ||
