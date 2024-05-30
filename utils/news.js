@@ -1,5 +1,5 @@
 const textInfo = [
-  "15% kod rabatowy : CFBYTOM15 na www.mojcatering.pl",
+  "15% kod rabatowy: CFBYTOM15 na www.mojcatering.com.pl",
   "Start CrossFit Intro: 11/06 Wtorek (17:30)",
   "Challenge Murph All Week: 10/06 -15/06",
   "Lipiec: California 13/07 Sobota (10:00)",
