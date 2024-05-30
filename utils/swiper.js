@@ -18,10 +18,13 @@ export function mediaSlides(media) {
           videoElement.src = element;
           videoElement.muted = true;
           videoElement.setAttribute("playsinline", ""); // Ważne dla autoplay na mobilnych urządzeniach
-          videoElement.setAttribute("poster", "path/to/placeholder.jpg"); // Dodaj poster
           videoElement.setAttribute("preload", "metadata");
+          videoElement.style.visibility = "hidden"; // Ukryj wideo dopóki nie jest gotowe
 
-          videoElement.onloadeddata = resolve;
+          videoElement.onloadeddata = () => {
+            videoElement.style.visibility = "visible";
+            resolve();
+          };
           videoElement.onerror = reject;
 
           div.appendChild(videoElement);
@@ -44,10 +47,13 @@ export function mediaSlides(media) {
           videoElement.src = `./media/${element}`;
           videoElement.muted = true;
           videoElement.setAttribute("playsinline", ""); // Ważne dla autoplay na mobilnych urządzeniach
-          videoElement.setAttribute("poster", "../media/bg.jpg"); // Dodaj poster
           videoElement.setAttribute("preload", "metadata");
+          videoElement.style.visibility = "hidden"; // Ukryj wideo dopóki nie jest gotowe
 
-          videoElement.onloadeddata = resolve;
+          videoElement.onloadeddata = () => {
+            videoElement.style.visibility = "visible";
+            resolve();
+          };
           videoElement.onerror = reject;
 
           div.appendChild(videoElement);
@@ -90,8 +96,13 @@ export function mediaSlides(media) {
           const video = currentSlide.querySelector("video");
 
           if (video) {
+            video.style.visibility = "hidden"; // Ukryj wideo podczas zmiany slajdu
             video.currentTime = 0;
             video.play();
+
+            video.onplay = () => {
+              video.style.visibility = "visible";
+            };
 
             const swiperInstance = this;
 
@@ -102,6 +113,14 @@ export function mediaSlides(media) {
               swiperInstance.autoplay.start();
             }, { once: true }); // Dodaj { once: true }, aby nasłuchiwacz był wywołany tylko raz
           }
+        },
+        loopFix: function () {
+          // Wywołaj tę funkcję po każdej zmianie slajdu przy zapętleniu
+          const videos = this.slides.querySelectorAll("video");
+          videos.forEach(video => {
+            video.currentTime = 0;
+            video.pause(); // Zatrzymaj wideo na początku każdej rundy
+          });
         },
       },
     });
