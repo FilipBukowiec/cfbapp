@@ -1,6 +1,6 @@
 const textInfo = [
   "Nasza trenerka Monia wygrywa kategorię K-20 Dychy na Jeleni Skok podczas festiwalu Bieg Rzeźnika",
-  "Młodzi sztangiści „Start Bytom” przywożą medale z indywidualnych Mistrzostwa Śląska U20 & U23",
+  "Młodzi sztangiści „Start Bytom” przywożą medale z indywidualnych Mistrzostw Śląska U20 & U23",
   "Nasi klubowicze już w tę sobotę startują w zawodach crossfitowych Best Fit Games w Rybniku. Powodzenia!",
   "MÓJ CATERING nowym partnerem CrossFit Bytom. Wejdź na stronę mojcatering.com.pl i zyskaj 15% rabatu z kodem: CFBYTOM15",
   "Młodzi sztangiści wezmą udział w sobotę 08/06 w kwalifikacjach do Ogólnopolskiej Olimpiady Młodzieży",
