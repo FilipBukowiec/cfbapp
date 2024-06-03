@@ -8,7 +8,6 @@ const textInfo = [
   "Challenge Murph All Week: 10/06 - 15/06",
   "Lipiec: California 13/07 Sobota (10:00)",
   "Sierpień: Triple 3 17/08 Sobota (10:00) CrossFit Games Event na stadionie",
-  "Crossfit Runners: #3 Wyjazd w Góry - 02/06 Niedziela (7:00)",
   "31/05-02/06 ostatnie eliminacje do CrossFit Games. Semifinals in RPA/Brasil & USA. Oglądaj live na crossfitgames.com",
 ];
 
