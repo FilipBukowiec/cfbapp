@@ -6,6 +6,7 @@ export const media = [
   "wakacje.jpg",
   "intro.mp4",
   "msp.jpg",
+  "coffee.mp4",
   "murph.mp4",
   "hms.mp4",
   "best_fit.jpg",
