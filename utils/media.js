@@ -15,5 +15,6 @@ export const media = [
   "power_woman.jpg",
   "hyrox.mp4",
   "hyroxcompetition.jpg",
-  "shakes.mp4"
+  "shakes.mp4",
+  "start_zawody.jpg"
 ];
