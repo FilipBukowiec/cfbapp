@@ -14,6 +14,7 @@ export const media = [
   "kettlebell_endurance.mp4",
   "start_bytom.mp4",
   "power_woman.jpg",
+  "moj_catering",
   "hyrox.mp4",
   "hyroxcompetition.jpg",
   "shakes.mp4",
