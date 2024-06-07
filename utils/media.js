@@ -3,6 +3,7 @@
 import { eventCountdown } from "./events.js";
 
 export const media = [
+  "puff.jpg",
   "wakacje.jpg",
   "intro.mp4",
   "all_in.mp4",
