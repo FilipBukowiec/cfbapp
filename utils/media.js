@@ -8,6 +8,7 @@ export const media = [
   "kh.mp4",
   "intro.mp4",
   "all_in.mp4",
+  "ms.jpg",
   "msp.jpg",
   "coffee.mp4",
   "murph.mp4",
