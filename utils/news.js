@@ -1,4 +1,5 @@
 const textInfo = [
+  "Wyprzedaż koszulek CFB w cenie 60zł/szt.!!! Oferta obowiązuje do 16.06 lub do wyczerpania zapasów",
   "Katarzyna Hendel zajmuje 3 miejsce w zawodach BestFit Games! Gratulujemy!!!",
   "Michał Szebestik zajmuje 5 miejsce w zawodach BestFit Games! Gratulujemy!!!",
   "Nasi klubowicze Gosia&Adam zajmują 7 miejsce w zawodach CROSS MIXED ZONE GDAŃSK 2024! GRATULUJEMY!!!",
