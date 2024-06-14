@@ -10,6 +10,7 @@ export const media = [
   "intro.mp4",
   "all_in.mp4",
   "ms.jpg",
+  "hyrox_bytom.mp4",
   "msp.jpg",
   "coffee.mp4",
   "sale.jpg",
