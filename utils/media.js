@@ -4,11 +4,11 @@ import { eventCountdown } from "./events.js";
 
 export const media = [
   // osiągniecia
-  "olimpiada.jpg",
-  "g&a.jpg",
-  "kh.mp4",
-  "ms.jpg",
-  "start_zawody.jpg",
+  // "olimpiada.jpg",
+  // "g&a.jpg",
+  // "kh.mp4",
+  // "ms.jpg",
+  // "start_zawody.jpg",
 
   // zajęcia
   "intro.mp4",
@@ -21,8 +21,8 @@ export const media = [
   "hyrox.mp4",
   "hyroxcompetition.jpg",
 
-  // reklamy
-  "sale.jpg",
+  // // reklamy
+  // "sale.jpg",
   "hms.mp4",
   "coffee.mp4",
   "all_in.mp4",

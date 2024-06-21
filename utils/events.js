@@ -69,14 +69,14 @@
 //   }
 // }
 
-export function eventCountdown(eventBackground) {
-  const slide = document.createElement("div");
-  slide.classList.add("swiper-slide");
-  const background = document.createElement("div");
+// export function eventCountdown(eventBackground) {
+//   const slide = document.createElement("div");
+//   slide.classList.add("swiper-slide");
+//   const background = document.createElement("div");
 
-  background.style.backgroundImage = `url(./media/${eventBackground})`;
-  background.classList.add("event-background");
-  slide.appendChild(background);
+//   background.style.backgroundImage = `url(./media/${eventBackground})`;
+//   background.classList.add("event-background");
+//   slide.appendChild(background);
 
-  return slide.outerHTML;
-}
+//   return slide.outerHTML;
+// }
