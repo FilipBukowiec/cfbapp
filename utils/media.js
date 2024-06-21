@@ -10,8 +10,8 @@ export const media = [
   // "start_zawody.jpg",
 
   // zajęcia
-  "intro.mp4",
   "wakacje.jpg",
+  "intro.mp4",
   "hyrox_bytom.mp4",
   "power_woman.jpg",
   "crossfit_runners.mp4",
