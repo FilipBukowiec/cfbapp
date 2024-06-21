@@ -1,6 +1,5 @@
 // import { EventCountdown } from "./events.js";
 
-import { eventCountdown } from "./events.js";
 
 export const media = [
   // osiągniecia
