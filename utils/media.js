@@ -1,6 +1,5 @@
 // import { EventCountdown } from "./events.js";
 
-
 export const media = [
   // osiągniecia
   // "olimpiada.jpg",
@@ -10,6 +9,7 @@ export const media = [
   // "start_zawody.jpg",
 
   // zajęcia
+  "california.jpg",
   "wakacje.jpg",
   "intro.mp4",
   "hyrox_bytom.mp4",
