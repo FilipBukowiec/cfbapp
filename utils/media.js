@@ -9,7 +9,7 @@ export const media = [
   // "start_zawody.jpg",
 
   // zajęcia
-  "california.jpg",
+  "california1.jpg",
   "wakacje.jpg",
   "intro.mp4",
   "hyrox_bytom.mp4",
