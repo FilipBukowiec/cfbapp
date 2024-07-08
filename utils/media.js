@@ -2,11 +2,7 @@
 
 export const media = [
   // osiągniecia
-  // "olimpiada.jpg",
-  // "g&a.jpg",
-  // "kh.mp4",
-  // "ms.jpg",
-  // "start_zawody.jpg",
+  "oom.jpg",
 
   // zajęcia
   "california1.jpg",
