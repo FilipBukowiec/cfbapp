@@ -5,7 +5,7 @@ export const media = [
   "oom.jpg",
 
   // zajęcia
-
+  "wns.mp4",
   "california.mp4",
   "intro.mp4",
   "hyrox_bytom.mp4",
