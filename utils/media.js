@@ -2,6 +2,7 @@
 
 export const media = [
   // osiągniecia
+  "triple.jpg",
   "oom.jpg",
 
   // zajęcia
