@@ -19,10 +19,8 @@ export const media = [
   "hyroxcompetition.jpg",
 
   // // reklamy
-  // "sale.jpg",
   "hms.mp4",
   "coffee.mp4",
-  // "all_in.mp4",
   "moj_catering.mp4",
   "shakes.mp4",
 ];
