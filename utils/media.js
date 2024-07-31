@@ -1,6 +1,8 @@
 // import { EventCountdown } from "./events.js";
 
 export const media = [
+
+  "gaminate.jpg",
   // osiągniecia
   "triple.jpg",
   "oom.jpg",
