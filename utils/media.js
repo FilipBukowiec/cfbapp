@@ -13,7 +13,7 @@ export const media = [
   "california.mp4",
   "intro.mp4",
   "hyrox_bytom.mp4",
-  "power_woman.jpg",
+
   "crossfit_runners.mp4",
   "kettlebell_endurance.mp4",
   "start_bytom.mp4",
