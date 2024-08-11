@@ -2,7 +2,7 @@
 
 export const media = [
 
-  "gaminate.jpg",
+
   // osiągniecia
   "triple.jpg",
   "oom.jpg",
@@ -21,6 +21,7 @@ export const media = [
   "hyroxcompetition.jpg",
 
   // // reklamy
+  "gaminate.mp4",
   "hms.mp4",
   "coffee.mp4",
   "moj_catering.mp4",

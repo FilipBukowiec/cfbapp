@@ -158,15 +158,13 @@ footer {
 .swiper-slide img {
   width: 100vw;
   height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .swiper-slide video {
   width: 100vw;
   height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .activities {
@@ -256,8 +254,7 @@ h1 {
 
 #bytomthd {
   height: 40%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .countdown-wrapper {
