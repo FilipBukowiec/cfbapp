@@ -4,6 +4,7 @@ export const media = [
 
 
   // osiągniecia
+  "tvp3.mp4",
   "oom.jpg",
 
   // zajęcia
