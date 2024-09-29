@@ -3,18 +3,14 @@
 export const media = [
 
 
-  // osiągniecia
-  "tvp3.mp4",
-  "oom.jpg",
 
   // zajęcia
-  "holidays.mp4",
-  "wns.mp4",
-  "california.mp4",
+  // "holidays.mp4",
+  // "california.mp4",
   "intro.mp4",
   "hyrox_bytom.mp4",
 
-  "crossfit_runners.mp4",
+  // "crossfit_runners.mp4",
   "kettlebell_endurance.mp4",
   "start_bytom.mp4",
   "hyrox.mp4",
