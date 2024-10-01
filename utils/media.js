@@ -7,11 +7,13 @@ export const media = [
   // zajęcia
   // "holidays.mp4",
   // "california.mp4",
+  "kenews.jpg",
+  "badania.jpg",
   "intro.mp4",
   "hyrox_bytom.mp4",
 
   // "crossfit_runners.mp4",
-  "kettlebell_endurance.mp4",
+  // "kettlebell_endurance.mp4",
   "start_bytom.mp4",
   "hyrox.mp4",
   "hyroxcompetition.jpg",
