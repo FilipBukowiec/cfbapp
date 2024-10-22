@@ -1,14 +1,10 @@
 // import { EventCountdown } from "./events.js";
 
 export const media = [
-
-
-
   // zajęcia
   // "holidays.mp4",
   // "california.mp4",
   "kenews.jpg",
-  "badania.jpg",
   "intro.mp4",
   "hyrox_bytom.mp4",
 

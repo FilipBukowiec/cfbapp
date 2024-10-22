@@ -3,7 +3,6 @@ const textInfo = [
   "CrossFit Intro: wtorek/czwartek godz. 17:30. Zapraszamy!!!",
   "MÓJ CATERING nowym partnerem CrossFit Bytom. Wejdź na stronę mojcatering.com.pl i zyskaj 15% rabatu z kodem: CFBYTOM15",
   "GAMINATE partnerem CrossFit Bytom. Zgarnij 10% rabatu na zakupy w sklepie gaminate.pro z kodem crossfitbytom"
-  // "Sukces naszych sztangistek w Ogólnopolskiej Olimpiadzie Młodzieży w podnoszeniu ciężarów! Wiktoria Kruk zajęła 6. miejsce w kategorii do 55 kg, zaś Oliwia Wittig uplasowała się na 4. miejscu w kategorii do 64 kg! Gratulujemy naszym zawodniczkom i życzymy dalszych sukcesów!!!",
 ];
 
 let imgPath = "./img/cfb.svg";
