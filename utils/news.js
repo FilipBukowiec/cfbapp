@@ -1,8 +1,7 @@
 const textInfo = [
-  "Intro Kettlebell Endurance. Zajęcia dla początkujących Trening Optymalny -> Start: Wtorek 08/10 , Godzina: 17:00",
-  "CrossFit Intro: wtorek/czwartek godz. 17:30. Zapraszamy!!!",
-  "MÓJ CATERING nowym partnerem CrossFit Bytom. Wejdź na stronę mojcatering.com.pl i zyskaj 15% rabatu z kodem: CFBYTOM15",
-  "GAMINATE partnerem CrossFit Bytom. Zgarnij 10% rabatu na zakupy w sklepie gaminate.pro z kodem crossfitbytom"
+  "CrossFit Bytom startuje. Hyrox Poznań 02-03/11",
+  "Od 5 listopada zajęcia KettleBell Endurance odbędą się w każdy wtorek o godz. 17:30 zaś czwartek o 17. Zapraszamy",
+  "CrossFit Intro: Wtorek/Czwartek o 17:30. Zapraszamy osoby, które chcą wejść do świata CrossFitu lub miały dłuższą przerwę w treningu!",
 ];
 
 let imgPath = "./img/cfb.svg";
