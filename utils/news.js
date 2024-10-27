@@ -2,7 +2,7 @@ const textInfo = [
   "CrossFit Bytom startuje. Hyrox Poznań 02-03/11",
   "Od 5 listopada zajęcia KettleBell Endurance odbędą się w każdy wtorek o godz. 17:30 zaś czwartek o 17. Zapraszamy",
   "CrossFit Intro: Wtorek/Czwartek o 17:30. Zapraszamy osoby, które chcą wejść do świata CrossFitu lub miały dłuższą przerwę w treningu!",
-"sdfsdfsdf"
+  
 ];
 
 let imgPath = "./img/cfb.svg";
