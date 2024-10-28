@@ -3,6 +3,7 @@ const textInfo = [
   // "Od 5 listopada zajęcia KettleBell Endurance odbędą się w każdy wtorek o godz. 17:30 zaś czwartek o 17. Zapraszamy",
   "CrossFit Intro: Wtorek/Czwartek o 17:30. Zapraszamy osoby, które chcą wejść do świata CrossFitu lub miały dłuższą przerwę w treningu!",
     "Zajęcia Kettlebell dla początkujących: każdy wtorek, czwartek godz: 17:30. Zapraszamy!",
+    "Młodzi sztangiści startują 02/11 w MISTRZOSTWACH ŚLĄSKA SENIORÓW!"
 
 ];
 
