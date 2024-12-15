@@ -1,7 +1,7 @@
 const textInfo = [
   "CrossFit Intro: Wtorek/Czwartek o 17:30. Zapraszamy osoby, które chcą wejść do świata CrossFitu lub miały dłuższą przerwę w treningu!",
-    "Zajęcia Kettlebell dla początkujących: każdy wtorek, czwartek godz: 17:30. Zapraszamy!",
-    "Zapraszamy wszystkich klubowiczów na wigilię, która odbędzie się w dniu 14.12 o godz. 19:00"
+    "Zajęcia Kettlebell dla początkujących: każdy wtorek godz. 17:30, czwartek godz: 17:00. Zapraszamy!",
+    
 
 ];
 
