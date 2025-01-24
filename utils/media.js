@@ -1,6 +1,7 @@
 // import { EventCountdown } from "./events.js";
 
 export const media = [
+  "venomax.jpg",
   "kettlebell.mp4",
   "intro.mp4",
   "hyrox.jpg",
